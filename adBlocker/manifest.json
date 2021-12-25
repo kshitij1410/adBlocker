@@ -1,0 +1,15 @@
+{
+    "name": "KK adBlocker",
+    "version": "1.0",
+    "description": "This extension will block the advertisement",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["index.js"]
+    },
+    "icons": {
+        
+        "128": "icons/logo_.png"
+    },
+    "manifest_version": 2
+}
+
